@@ -1,0 +1,27 @@
+Title: How Denotational Design can help you think about image manipulation
+
+I started this conversation with the intention to illuminate what Denotation Design is by using the example of the denotation of "images as functions". I wanted to talk about how using functions to denote images was clearly superior to denoting images as two dimensional arrays of pixels. But on a whim, I also decided to consider a vector graphic representation where, for examples, squares were denoted by their position of their vertices in the Real Plane.
+
+This led to a fruitful discussion where we discovered that there are shortcomings to this representation, specifically when you consider spatial transformations that are more exotic than simple rotations.
+
+Conal talks about how important it is to have an underlying denotation when designing software, and how important it is that it is simple. Without understanding what a square _means_ how can you talk about what it means for the rotation of that square to be correct?
+
+A full transcript is available at: https://github.com/denotational-design-channel/transcripts/blob/main/exploring-denotational-design-through-the-lens-of-computer-imagery.md
+
+
+- 0:00 Introduction
+- 01:55 - Superiority of spatial transformations in R^2
+- 02:30 What does it mean to be correct?
+- 03:45 Suggestions on how to think about truth and correctness in design
+- 04:45 - I push back on the notation that vector graphics denotation is not useful
+- 05:04 - The false reassurance one can get from authority
+- 07:05 - Choosing a good denotation makes it easy to say something that is true
+- 08:26 - On the value of simplicity and machine-checked proof
+- 09:44 - Conal points out something that the "images as functions" denotation models better than the "shapes denoted as vertices" denotation
+- 11:46 Ways to notice that one's denotation might not be adequate
+- 13:07 - Matrices can only do a limited subset of spatial transformations.
+- 15:36 - On compromising on a vector graphics denotation but limiting yourself to certain transformations so that all spatial transformations are correct.
+- 17:16 - On the importance of specification
+- 18:08 - A plausible way you could discover limitations in your denotation
+- 18:59 - A short list of special classes of transformations
+- 20:18 - The way computers are at present can limit our thinking
