@@ -1,7 +1,6 @@
 Title: Exploring Denotational Design through the lens of Computer Imagery
 
-Sean Seefried and Conal Elliott examine the nature of Denotational Design by comparing the "images as functions" denotation with a vector graphics denotation where polygons are represented by their vertices.
-These two denotations are further contrasted with "images as two dimensional arrays of pixels".
+Sean Seefried and Conal Elliott examine the nature of Denotational Design by comparing the "images as functions" denotation with a vector graphics denotation where polygons are defined by the positions of their vertices. These two denotations are further contrasted with "images as two dimensional arrays of pixels".
 
 A fruitful discussion ensues that highlights the shortcomings to of the vector graphics denotation, specifically when one considers spatial transformations that are more exotic than simple rotations.
 
