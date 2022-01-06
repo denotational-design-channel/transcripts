@@ -1,12 +1,11 @@
 Title: Exploring Denotational Design through the lens of Computer Imagery
 
-Sean Seefried and Conal Elliott examine the nature of Denotational Design by looking at a particular example: the "images as functions" denotation.
+Sean Seefried and Conal Elliott examine the nature of Denotational Design by comparing the "images as functions" denotation with a vector graphics denotation where polygons are represented by their vertices.
+These two denotations are further contrasted with "images as two dimensional arrays of pixels".
 
-The conversation begins by contrasting "images as functions", a vector graphics denotation and "images as two dimensional arrays of pixels".
+A fruitful discussion ensues that highlights the shortcomings to of the vector graphics denotation, specifically when one considers spatial transformations that are more exotic than simple rotations.
 
-A fruitful discussion ensues highlighting the shortcomings to of the vector graphics denotation, specifically when one considers spatial transformations that are more exotic than simple rotations.
-
-Conal talks about how important it is to have an underlying denotation when designing software, and how important it is that it is simple. Without understanding what a square _means_ how can one talk about what it means for the rotation of that square to be correct?
+Conal talks about how important it is to have an underlying denotation when designing software, and how important it is that it is simple. Without understanding what a square "means" how can one talk about what it means for the rotation of that square to be correct?
 
 A full transcript is available at: https://github.com/denotational-design-channel/transcripts/blob/main/exploring-denotational-design-through-the-lens-of-computer-imagery.md
 
