@@ -1,4 +1,4 @@
-## Denotational Design on Affine Functions - Part 1/5 - Introduction
+## Denotational Design on Affine Functions - Introduction
 
 Today I want to take you through a small exercise in Denotational
 Design, a way of designing software developed by Conal Elliott. A full treatment of it is outside the scope of this video and, frankly, my ability since I'm still learning its intricacies.
